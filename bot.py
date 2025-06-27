@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import asyncio
 
 # Telegram API sozlamalari
-API_ID = '9282240'  # my.telegram.org dan oling
-API_HASH = '493108d78871eb13b7bf13c9f23ca2de'  # my.telegram.org dan oling
-PHONE_NUMBER = '+998953770309'  # Telegram hisobingiz raqami
+API_ID = 'YOUR_API_ID'  # my.telegram.org dan oling
+API_HASH = 'YOUR_API_HASH'  # my.telegram.org dan oling
+PHONE_NUMBER = 'YOUR_PHONE_NUMBER'  # Telegram hisobingiz raqami
 
 # Bot sozlamalari
 app = Client("my_account", api_id=API_ID, api_hash=API_HASH, phone_number=PHONE_NUMBER)
